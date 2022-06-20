@@ -1,0 +1,4 @@
+dotnet new webapi -n API --framework net5.0
+ng new app-angular
+dotnet ef migrations add treinoapiDB -o Data/Migrations
+dotnet ef database update
