@@ -1,13 +1,13 @@
-
-.home{
+.home {
   background-color: black;
   height: 45rem;
 }
+
 .container {
   background-color: black;
 }
 
-form{
+form {
   padding-top: 4rem;
   display: flex;
   flex-direction: column;
@@ -16,15 +16,16 @@ form{
   color: white;
 }
 
-h1{
+h1 {
   padding-bottom: 2rem;
 }
-img{
+
+img {
   padding-bottom: 2rem;
   width: 80px;
 }
 
-input{
+input {
   width: 100%;
   background-color: #5D7CA6;
   color: #85DEF2;
@@ -34,29 +35,30 @@ input::placeholder {
   color: #85DEF2;
 }
 
-input:focus{
+input:focus {
   width: 100%;
   background-color: #5D7CA6;
   color: #85DEF2;
 
 }
 
-button{
+button {
   background-color: #85DEF2;
   color: #0D0D0D;
   transition: all 1s;
 }
-button:hover{
+
+button:hover {
   background-color: #107cc9;
   color: #a2eeff;
 }
 
-p{
+p {
   color: #5D7CA6;
   transition: all 1s;
 }
 
-p:hover{
+p:hover {
   color: #85DEF2;
   cursor: pointer;
   text-shadow: 1px 12px 9px #85DEF2;

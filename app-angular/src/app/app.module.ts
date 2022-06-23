@@ -14,6 +14,7 @@ import { HomeComponent } from './Components/home/home.component';
 import { FormsModule } from '@angular/forms';
 import { NavbarComponent } from './Components/navbar/navbar.component';
 import { FooterComponent } from './Components/footer/footer.component';
+
 @NgModule({
   declarations: [
     AppComponent,
