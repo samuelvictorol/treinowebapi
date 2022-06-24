@@ -1,0 +1,39 @@
+.passagem {
+    border-radius: 10px;
+    padding-bottom: 10px;
+}
+
+#passagem {
+    color: #fff;
+    padding: 10px;
+    background-color: #5D7CA6;
+    border-radius: 10px;
+}
+
+#passagem_main {
+    color: #fff;
+    padding: 5px;
+    background-color: #733F2C;
+    border-radius: 10px;
+}
+
+.titulo {
+    padding-top: 10px;
+    color: #85DEF2;
+}
+
+hr {
+    color: #85DEF2;
+}
+
+img {
+    height: 20px;
+    padding-inline: 10px;
+    filter: brightness(0)invert(1);
+    transition: 300ms;
+}
+
+img:hover {
+    filter: none;
+    
+}

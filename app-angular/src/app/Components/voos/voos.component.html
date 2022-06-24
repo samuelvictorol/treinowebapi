@@ -1,0 +1,44 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="titulo">
+            <tr class="row">
+                <th class="col-4">Origem</th>
+                <th class="col-2">Destino</th>
+                <th class="col-2">Ida</th>
+                <th class="col-3">Volta</th>
+            </tr>
+            <br>
+        </div>
+        <div class="passagem">
+            <tr id="passagem_main" class="row">
+                <td class="col-4">Brasília (BSB)</td>
+                <td class="col-2">São Paulo (SAO)</td>
+                <td class="col-2">10/11/22</td>
+                <td class="col-3">17/11/22</td>
+            </tr>
+        </div>
+    </div>
+    <div class="row">
+        <div class="titulo">
+            <tr class="row">
+                <th class="col-4">Companhia</th>
+                <th class="col-2">Saída</th>
+                <th class="col-2">Chegada</th>
+                <th class="col-3">Opções</th>
+            </tr>
+            <hr>
+        </div>
+        <div class="passagem" *ngFor="let passagem of passagens; let i = index">
+            <tr id="passagem" class="row">
+                <td class="col-4">{{ passagem.empresa }}</td>
+                <td class="col-2">{{ passagem.ida }}</td>
+                <td class="col-2">{{ passagem.volta }}</td>
+                <td class="col-3">
+                    <a href="#"> <img src="../../../assets/img/edit.png" alt="img"> </a>
+                    <a href="#"> <img src="../../../assets/img/list.png" alt=""> </a>
+                    <a href="#"> <img src="../../../assets/img/delete.png" alt=""> </a>
+                </td>
+            </tr>
+        </div>
+    </div>
+</div>

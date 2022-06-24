@@ -14,6 +14,7 @@ import { HomeComponent } from './Components/home/home.component';
 import { FormsModule } from '@angular/forms';
 import { NavbarComponent } from './Components/navbar/navbar.component';
 import { FooterComponent } from './Components/footer/footer.component';
+import { VoosComponent } from './Components/voos/voos.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { FooterComponent } from './Components/footer/footer.component';
     HomeComponent,
     ProfilesComponent,
     NavbarComponent,
-    FooterComponent
+    FooterComponent,
+    VoosComponent
   ],
   imports: [
     BrowserModule,
