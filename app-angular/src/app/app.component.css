@@ -1,4 +1,4 @@
-.nav{
+.nav {
   background: black;
   height: 4rem;
   display: flex;
@@ -7,30 +7,30 @@
 
 }
 
-.btn{
+.btn {
   background-color: #5D7CA6;
   border: none;
   color: #85DEF2;
   transition: all .4s;
 }
 
-.btn:hover{
+.btn:hover {
   background-color: #85DEF2;
   color: #093b82;
   box-shadow: -3px 8px 15px -5px #04f7ff;
 }
 
-.btns-submit{
+.btns-submit {
   display: flex;
   justify-content: space-between;
 }
 
-footer{
+footer {
   background-color: black;
-  color:#5D7CA6;
+  color: #5D7CA6;
 }
 
-.footer-content{
+.footer-content {
   position: absolute;
   bottom: 0;
   width: 100%;
@@ -38,3 +38,7 @@ footer{
   border-top-right-radius: 50px;
   background-color: #0D0D0D;
 }
+
+body {
+  background-color: #0D0D0D;
+} 
